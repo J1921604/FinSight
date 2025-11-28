@@ -10,6 +10,13 @@ description: "Task list template for feature implementation"
 
 **Tests**: The examples below include test tasks. Tests are OPTIONAL - only include them if explicitly requested in the feature specification.
 
+**憲法準拠**: 本タスクリストは`.specify/memory/constitution.md`の原則に準拠します。
+- **原則1（TDD）**: テストタスクを実装タスクより先に配置
+- **原則2（セキュリティ）**: Secret管理、脆弱性スキャンのタスクを含める
+- **原則3（パフォーマンス）**: Lighthouseテスト、バンドル分析のタスクを含める
+- **原則4（再現性）**: 依存関係固定、スキーマバリデーションのタスクを含める
+- **原則5（CI/CD）**: ブランチ作成、PRレビューチェックリストのタスクを含める
+
 **Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
 
 ## Format: `[ID] [P?] [Story] Description`

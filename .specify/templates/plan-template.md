@@ -31,7 +31,34 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+本セクションは、`.specify/memory/constitution.md`で定義された原則への準拠を確認します。
+
+### 原則1: テスト駆動開発の徹底
+- [ ] テストケースを実装前に定義済み
+- [ ] カバレッジ目標80%以上を設定
+- [ ] ユニット・統合・E2Eテスト計画が存在
+
+### 原則2: セキュリティ要件の最優先
+- [ ] 全てのAPIキーをGitHub Secretsで管理
+- [ ] 機密データの暗号化方針を決定
+- [ ] 依存関係の脆弱性スキャン設定完了
+
+### 原則3: パフォーマンス定量化と受入基準
+- [ ] LCP < 2.5秒、TTI < 2.0秒の目標設定
+- [ ] バンドルサイズ < 200KB（gzip後）
+- [ ] Lighthouseスコア90以上を維持
+
+### 原則4: データの再現性と監査証跡
+- [ ] 依存関係をexactバージョンで固定
+- [ ] データスキーマに`schema_version`を含める
+- [ ] 仕様と実装の同期手順を定義
+
+### 原則5: 継続的インテグレーションとデプロイメント
+- [ ] ブランチ戦略（spec/impl分離）を遵守
+- [ ] PRレビューチェックリストを作成
+- [ ] CI/CDパイプライン設定完了
+
+**判定**: 全てのチェックが完了するまで、Phase 0への進行を禁止します。
 
 ## Project Structure
 

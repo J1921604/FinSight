@@ -5,6 +5,13 @@
 **Status**: Draft  
 **Input**: User description: "$ARGUMENTS"
 
+**憲法準拠**: 本仕様は`.specify/memory/constitution.md`の原則1-5に準拠します。
+- テスト駆動開発の徹底（受入シナリオ必須）
+- セキュリティ要件の優先（機密データ取扱の明記）
+- パフォーマンス基準の定量化（成功基準に含める）
+- 再現性の確保（データモデルのバージョニング）
+- CI/CD統合（デプロイメント要件の明記）
+
 ## User Scenarios & Testing *(mandatory)*
 
 <!--
