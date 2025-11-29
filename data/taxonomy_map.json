@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0.0",
+  "description": "XBRL要素名とFinSightフィールド名のマッピング。年度ごとのタクソノミ変更に対応。",
+  "last_updated": "2025-12-01",
+  "mappings": {
+    "revenue": [
+      "売上高",
+      "営業収益",
+      "Revenue",
+      "OperatingRevenue",
+      "NetSales",
+      "営業収益（四半期）",
+      "売上高（四半期）"
+    ],
+    "operating_income": [
+      "営業利益",
+      "OperatingIncome",
+      "営業利益（四半期）",
+      "営業利益又は営業損失"
+    ],
+    "ordinary_income": [
+      "経常利益",
+      "OrdinaryIncome",
+      "経常利益（四半期）",
+      "経常利益又は経常損失"
+    ],
+    "net_income": [
+      "当期純利益",
+      "親会社株主に帰属する当期純利益",
+      "NetIncome",
+      "ProfitAttributableToOwnersOfParent",
+      "四半期純利益",
+      "親会社株主に帰属する四半期純利益",
+      "当期純利益又は当期純損失"
+    ],
+    "total_assets": [
+      "資産合計",
+      "総資産",
+      "TotalAssets",
+      "Assets"
+    ],
+    "current_assets": [
+      "流動資産",
+      "CurrentAssets",
+      "流動資産合計"
+    ],
+    "fixed_assets": [
+      "固定資産",
+      "NonCurrentAssets",
+      "固定資産合計",
+      "非流動資産",
+      "非流動資産合計"
+    ],
+    "total_liabilities": [
+      "負債合計",
+      "総負債",
+      "TotalLiabilities",
+      "Liabilities"
+    ],
+    "current_liabilities": [
+      "流動負債",
+      "CurrentLiabilities",
+      "流動負債合計"
+    ],
+    "non_current_liabilities": [
+      "固定負債",
+      "NonCurrentLiabilities",
+      "固定負債合計",
+      "非流動負債",
+      "非流動負債合計"
+    ],
+    "net_assets": [
+      "純資産",
+      "NetAssets",
+      "純資産合計",
+      "Equity",
+      "株主資本"
+    ],
+    "operating_cf": [
+      "営業活動によるキャッシュ・フロー",
+      "CashFlowsFromOperatingActivities",
+      "営業活動によるキャッシュフロー",
+      "営業CF"
+    ],
+    "investing_cf": [
+      "投資活動によるキャッシュ・フロー",
+      "CashFlowsFromInvestingActivities",
+      "投資活動によるキャッシュフロー",
+      "投資CF"
+    ],
+    "financing_cf": [
+      "財務活動によるキャッシュ・フロー",
+      "CashFlowsFromFinancingActivities",
+      "財務活動によるキャッシュフロー",
+      "財務CF"
+    ]
+  },
+  "notes": {
+    "usage": "このマッピングは、EDINET API v2から取得したXBRL要素名を、FinSightの標準フィールド名に変換する際に使用します。",
+    "matching_strategy": "配列内のいずれかの文字列と完全一致または部分一致した場合、対応するフィールド名にマッピングされます。",
+    "version_management": "タクソノミが変更された場合、新しいエイリアスを配列に追加してください。古いバージョンとの互換性を維持するため、既存のエイリアスは削除しないでください。"
+  }
+}
