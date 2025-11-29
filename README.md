@@ -1,8 +1,9 @@
-# FinSight — 財務諸表分析ダッシュボード
+# FinSight - 財務諸表インサイトダッシュボード
 
-**バージョン**: 1.0.0  
-**プロジェクト憲法**: [.specify/memory/constitution.md](.specify/memory/constitution.md)  
-**最終更新**: 2025-11-29
+**Version**: 1.0.0  
+**Release Date**: 2025-12-15  
+**プロジェクト憲法**: [constitution.md](https://github.com/J1921604/FinSight/blob/main/specs/001-FinSight/constitution.md)  
+**最終更新**: 2025-12-15
 
 ---
 
@@ -35,7 +36,7 @@ FinSightは、東京電力ホールディングスおよび中部電力の財務
 
 ## プロジェクト憲法
 
-本プロジェクトは、以下の5つの基本原則に基づき開発されます。詳細は[憲法ドキュメント](.specify/memory/constitution.md)を参照してください。
+本プロジェクトは、以下の5つの基本原則に基づき開発されます。詳細は[憲法ドキュメント](https://github.com/J1921604/FinSight/blob/main/.specify/memory/constitution.md)を参照してください。
 
 ### 原則1: テスト駆動開発の徹底
 全ての機能実装に先立ち、テストケースを定義し、仕様に対する検証を必須とします。
@@ -431,11 +432,11 @@ Closes #42
 
 ## 参考資料
 
-- [プロジェクト憲法](.specify/memory/constitution.md)
+- [プロジェクト憲法](https://github.com/J1921604/FinSight/blob/main/.specify/memory/constitution.md)
 - [EDINET API仕様書](https://disclosure2dl.edinet-fsa.go.jp/guide/static/disclosure/download/ESE140206.pdf)
-- [仕様書テンプレート](.specify/templates/spec-template.md)
-- [計画書テンプレート](.specify/templates/plan-template.md)
-- [タスクテンプレート](.specify/templates/tasks-template.md)
+- [仕様書テンプレート](https://github.com/J1921604/FinSight/blob/main/.specify/templates/spec-template.md)
+- [計画書テンプレート](https://github.com/J1921604/FinSight/blob/main/.specify/templates/plan-template.md)
+- [タスクテンプレート](https://github.com/J1921604/FinSight/blob/main/.specify/templates/tasks-template.md)
 
 ---
 

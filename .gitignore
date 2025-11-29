@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/.env.local
+
+# Build outputs
+dist/
+frontend/dist/
+frontend/build/
+
+# Test coverage
+coverage/
+frontend/coverage/
+backend/htmlcov/
+backend/.coverage
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Playwright
+playwright-report/
+playwright/.cache/
+test-results/
+
+# Data cache
+data/.cache/
+
+# Lock files (keep package-lock.json but ignore others)
+yarn.lock
+pnpm-lock.yaml
